@@ -1,0 +1,22 @@
+model_config:
+  model: lgbm
+  parameters:
+    colsample_bytree: 0.35
+    scale_pos_weight: 13.166666666666666
+    n_estimators: 51
+features:
+- longest_consecutive_above_mean_mz60
+- std_mz48
+- std_mz24
+- longest_consecutive_above_mean_mz76
+- std_mz49
+- longest_consecutive_above_mean_mz50
+- std_mz3
+- std_mz60
+- std_mz61
+- std_mz47
+- max_mz60
+- longest_consecutive_above_mean_mz48
+- max_mz6
+- longest_consecutive_above_mean_mz79
+- std_mz76

@@ -1,0 +1,55 @@
+model_config:
+  model: lgbm
+  parameters:
+    colsample_bytree: 0.1
+    scale_pos_weight: 2.0761316872427984
+    n_estimators: 95
+features:
+- temp_peak_mz50
+- longest_consecutive_above_mean_mz15
+- std_mz16
+- std_mz34
+- temp_peak_mz25
+- temp_peak_mz17
+- temp_peak_mz41
+- std_mz30
+- std_mz18
+- temp_peak_mz39
+- temp_peak_mz36
+- std_mz31
+- longest_consecutive_above_mean_mz49
+- longest_consecutive_above_mean_mz30
+- longest_consecutive_above_mean_mz53
+- std_mz33
+- temp_peak_mz13
+- sum_mz47
+- temp_peak_mz43
+- longest_consecutive_above_mean_mz1
+- std_mz20
+- min_mz32
+- longest_consecutive_above_mean_mz47
+- std_mz44
+- longest_consecutive_above_mean_mz20
+- temp_peak_mz18
+- min_mz46
+- temp_peak_mz1
+- temp_peak_mz19
+- longest_consecutive_above_mean_mz44
+- temp_peak_mz55
+- std_mz28
+- std_mz45
+- temp_peak_mz12
+- sum_mz8
+- max_mz47
+- sum_mz10
+- longest_consecutive_above_mean_mz55
+- min_mz34
+- temp_peak_mz45
+- std_mz12
+- min_mz10
+- longest_consecutive_above_mean_mz23
+- temp_peak_mz11
+- longest_consecutive_above_mean_mz43
+- longest_consecutive_above_mean_mz28
+- min_mz24
+- temp_peak_mz15

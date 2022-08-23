@@ -1,0 +1,12 @@
+model_config:
+  model: lgbm
+  parameters:
+    colsample_bytree: 0.35
+    scale_pos_weight: 1.0
+    n_estimators: 50
+features:
+- sum_mz44
+- std_mz28
+- temp_peak_mz28
+- std_mz44
+- std_mz29

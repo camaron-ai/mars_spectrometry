@@ -1,0 +1,8 @@
+model_config:
+  model: lgbm
+  parameters:
+    class_weight: balanced
+    n_estimators: 43
+    colsample_bytree: 0.3
+features:
+- std_mz28

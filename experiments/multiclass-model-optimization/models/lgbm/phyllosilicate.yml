@@ -1,0 +1,52 @@
+model_config:
+  model: lgbm
+  parameters:
+    class_weight: balanced
+    n_estimators: 61
+    colsample_bytree: 0.3
+features:
+- std_mz34
+- temp_peak_mz17
+- std_mz16
+- sum_mz22
+- temp_peak_mz50
+- std_mz12
+- std_mz17
+- longest_consecutive_above_mean_mz15
+- std_mz30
+- temp_peak_mz39
+- temp_peak_mz30
+- std_mz47
+- std_mz32
+- temp_peak_mz15
+- sum_mz34
+- longest_consecutive_above_mean_mz49
+- temp_peak_mz41
+- cluster_mz45
+- std_mz35
+- sample_weighted_mass
+- sum_mz47
+- temp_peak_mz38
+- sum_mz15
+- sum_mz39
+- temp_peak_mz36
+- std_mz19
+- temp_peak_mz43
+- temp_peak_mz13
+- sum_mz50
+- std_mz85
+- temp_peak_mz3
+- temp_peak_mz20
+- std_mz83
+- longest_consecutive_above_mean_mz17
+- temp_peak_mz12
+- std_mz33
+- longest_consecutive_above_mean_mz50
+- sum_mz43
+- sum_mz31
+- max_mz17
+- std_mz73
+- longest_consecutive_above_mean_mz30
+- longest_consecutive_above_mean_mz46
+- temp_peak_mz26
+- longest_consecutive_above_mean_mz1

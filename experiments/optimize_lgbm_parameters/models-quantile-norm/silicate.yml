@@ -1,0 +1,38 @@
+model_config:
+  model: lgbm
+  parameters:
+    colsample_bytree: 0.35
+    scale_pos_weight: 2.9096153846153845
+    n_estimators: 57
+features:
+- longest_consecutive_above_mean_mz23
+- longest_consecutive_above_mean_mz18
+- temp_peak_mz30
+- std_mz70
+- std_mz30
+- longest_consecutive_above_mean_mz70
+- std_mz21
+- max_mz69
+- std_mz33
+- std_mz13
+- longest_consecutive_above_mean_mz38
+- max_mz56
+- sum_mz44
+- sum_mz22
+- max_mz3
+- longest_consecutive_above_mean_mz36
+- min_mz46
+- max_mz67
+- max_mz23
+- min_mz3
+- longest_consecutive_above_mean_mz17
+- max_mz38
+- std_mz44
+- std_mz22
+- temp_peak_mz24
+- max_mz70
+- longest_consecutive_above_mean_mz72
+- min_mz2
+- max_mz76
+- max_mz1
+- longest_consecutive_above_mean_mz35

@@ -1,0 +1,19 @@
+model_config:
+  model: lgbm
+  parameters:
+    class_weight: balanced
+    n_estimators: 53
+    colsample_bytree: 0.3
+features:
+- longest_consecutive_above_mean_mz60
+- longest_consecutive_above_mean_mz76
+- sum_mz48
+- max_mz47
+- longest_consecutive_above_mean_mz28
+- std_mz0
+- sum_mz60
+- max_mz64
+- longest_consecutive_above_mean_mz17
+- std_mz35
+- longest_consecutive_above_mean_mz49
+- std_mz16
